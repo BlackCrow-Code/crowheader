@@ -20,15 +20,15 @@ An advanced, high-performance, and lightweight security intelligence tool engine
 
 ## 📸 Screenshots & Showcase
 
-### 1. Full Successful Scan Breakdown
+### 1. Help Menu & Argument Parser
+*The neat, organized CLI guide showcasing all available custom arguments and parameters.*
+![Help Menu](images/screenshot1.png)
+
+### 2. Full Successful Scan Breakdown
 *Below is the complete dashboard summary showing the structured table report and categorized metrics logs after a thorough target inspection.*
-![Scan Complete](images/screenshot1.png)
+![Scan Complete](images/screenshot2.png)
 
-### 2. Graceful Interruption (KeyboardInterrupt)
-*Demonstrating the robust error handling where the tool securely stops and exits cleanly on sudden user cancellation without breaking terminal output.*
-![Sudden Stop](images/screenshot2.png)
-
-### 3. Connection Layer Failure Handling
+### 3. Connection Layer Failure Handling / Interruption
 *Illustrating the failsafe execution block catching remote server socket drops or closed ports seamlessly.*
 ![Host Failure](images/screenshot3.png)
 
