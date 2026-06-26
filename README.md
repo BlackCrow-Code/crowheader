@@ -47,36 +47,44 @@ cd crowheader
 
 # Install required packages
 pip install -r requirements.txt
-
-📖 Usage Guide & Examples
+```
+## 📖 Usage Guide & Examples
 Help Options
 
 To view all available parameters, filters, and configuration guides:
-Bash
 
+```bash
 python3 crowheader.py -h
-
+```
 Basic Full Profile Audit Scan
 Bash
-
+```bash
 python3 crowheader.py -u example.com
-
+```
 Advanced Profile Filtering & Custom Signature Auditing
 
 Isolate the scan to monitor only Client-Side and Transport Network layers while feeding a custom wordlist signature file to check specific hidden vectors:
-Bash
+```bash
+python3 crowheader.py -u https://example.com--CS --N -c custom_headers.txt
+```
+## ⚙️ Available Arguments
 
-python3 crowheader.py -u [https://example.com](https://example.com) --CS --N -c custom_headers.txt
-
-⚙️ Available Arguments
 Argument	Long Flag	Description	Default
+
 -u	--url	[Required] The target Uniform Resource Locator	None
+
 -t	--threads	Number of concurrent connection threads allocated	10
+
 --CS	--CS	Filter scan exclusively for Client-Side Protection Profiles	False
+
 --N	--N	Filter scan exclusively for Network/Transport Profiles	False
+
 --D	--D	Filter scan exclusively for Infrastructure Disclosure Profiles	False
+
 -c	--custom	Path to your custom signature payload profiling file	None
+
 ⚠️ Additional Terms, Disclaimer & Advice
+
 
     [!WARNING]
     1. Legal & Ethical Use Only
