@@ -83,35 +83,33 @@ Argument	Long Flag	Description	Default
 
 -c	--custom	Path to your custom signature payload profiling file	None
 
-⚠️ Additional Terms, Disclaimer & Advice
+## ⚠️ Additional Terms, Disclaimer & Advice
 
+[!WARNING]
+1. Legal & Ethical Use Only
 
-    [!WARNING]
-    1. Legal & Ethical Use Only
+Notwithstanding the permissions granted in the MIT License, the use of this software ("crowbuster") for any illegal activities, unauthorized cyber operations, malicious hacking, or any action that causes harm to individuals or organizations is strictly prohibited. This software is intended solely for educational, research, and authorized ethical security testing purposes.
 
-    Notwithstanding the permissions granted in the MIT License, the use of this software ("crowheader") for any illegal activities, unauthorized cyber operations, malicious reconnaissance, or any action that causes disruption to remote systems is strictly prohibited. This software is intended solely for educational, research, and authorized ethical security testing purposes.
+[!IMPORTANT]
+2. Developer Disclaimer 
 
-    [!IMPORTANT]
-    2. Developer Disclaimer
+The developer (BlackCrow-Code) is absolutely NOT responsible for any misuse, unethical deployment, or illegal damage caused by this tool. By utilizing this software, you agree to take full legal and ethical liability for your actions and your scanning targets.
 
-    The developer (BlackCrow-Code) is absolutely NOT responsible for any misuse, unethical deployment, or illegal damage caused by this tool. By utilizing this software, you agree to take full legal and ethical liability for your actions and your scanning targets.
+[!TIP]
+3. Professional Security Advice 
 
-    [!TIP]
-    3. Professional Security Advice
+Always ensure you have written, explicit authorization (such as an active Bug Bounty scope or an official Pentest agreement) before initiating any automated scan against a target. Unauthorized fuzzing can be flagged as a cyber attack, impact service availability, or result in permanent IP bans. Stay ethical, keep learning, and use your skills strictly to build and secure.
 
-    Always ensure you have written, explicit authorization (such as an active Bug Bounty scope or an official Pentest agreement) before initiating automated audits against a target. Unauthorized infrastructure scanning can be flagged as a cyber attack, impact service availability, or result in permanent IP bans. Stay ethical, keep learning, and use your skills strictly to build and secure.
 
 📜 Credit & License
 Author
 
-    Developer: BlackCrow-Code
+Developer: BlackCrow-Code
 
-    Source Profile: https://github.com/BlackCrow-Code
+Source Profile: https://github.com/BlackCrow-Code
 
-    License URL: https://github.com/BlackCrow-Code/crowheader/blob/main/LICENSE
+ License URL: https://github.com/BlackCrow-Code/crowheader/blob/main/LICENSE
 
 License
 
 This project is licensed under the MIT License with Additional Custom Developer Terms.
-
-Please review the full license text below, alongside the Additional Terms & Disclaimer section above, which constitutes an essential condition for utilizing this software.
