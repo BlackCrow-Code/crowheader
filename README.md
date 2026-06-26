@@ -40,7 +40,7 @@ Since it's built and fully compatible with **Kali Linux**, clone the repository 
 
 ```bash
 # Clone the repository
-git clone [https://github.com/BlackCrow-Code/crowheader.git](https://github.com/BlackCrow-Code/crowheader.git)
+git clone https://github.com/BlackCrow-Code/crowheader
 
 # Navigate into the project directory
 cd crowheader
