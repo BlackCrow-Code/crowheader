@@ -75,11 +75,11 @@ Argument	Long Flag	Description	Default
 
 -t	--threads	Number of concurrent connection threads allocated	10
 
---CS	--CS	Filter scan exclusively for Client-Side Protection Profiles	False
+--CS		Filter scan exclusively for Client-Side Protection Profiles	False
 
---N	--N	Filter scan exclusively for Network/Transport Profiles	False
+--N		Filter scan exclusively for Network/Transport Profiles	False
 
---D	--D	Filter scan exclusively for Infrastructure Disclosure Profiles	False
+--D		Filter scan exclusively for Infrastructure Disclosure Profiles	False
 
 -c	--custom	Path to your custom signature payload profiling file	None
 
